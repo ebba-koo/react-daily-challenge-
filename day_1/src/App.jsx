@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="cover">
       <div className="toolbar_container">
-        <h3>Day 1</h3>
+        <h3>Day 1 - google ui clone</h3>
         <div className="toolbar">
           <a>Gmail</a>
           <a>Images</a>
