@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cover {
+  display: flex;
+  padding: 10px;
+
+  flex-direction: column;
+}
+.toolbar > * {
+  margin-left: 12px;
+}
+
+.toolbar a {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 12px;
+}
+.toolbar_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.toolbar_container h3 {
+  margin-left: 10px;
+}
+.toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 10px;
+}
+.toolbar img {
+  width: 40px;
+  border-radius: 50%;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+.main img {
+  margin-top: 130px;
+  min-height: 150px;
+  max-height: 270px;
+  height: calc(100% - 560px);
+}
+.search_input > * {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.search_input {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border-radius: 50px;
+  border: 1px rgba(100, 100, 111, 0.2) solid;
+}
+
+.search_input:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border: none;
+}
+
+.search_ {
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.87);
+  word-wrap: break-word;
+  outline: none;
+  display: flex;
+  flex: 100%;
+  width: 487px;
+  -webkit-tap-highlight-color: transparent;
+  height: 34px;
+  font-size: 16px;
+}
+
+.buttons {
+  display: flex;
+  margin: 10px;
+}
+
+.buttons > * {
+  margin-left: 10px;
+}
+.google_offer h4 {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  color: #3c4043;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
+}
+.google_offer a {
+  text-decoration: none;
+}
+.google_offer a:hover {
+  text-decoration: underline;
+}
+
+.buttons input {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+.buttons input:hover {
+  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+  color: #202124;
+}
+
+.google_offer {
+  display: flex;
+  padding: 10px;
+}
+.google_offer > * {
+  margin-left: 10px;
+}
