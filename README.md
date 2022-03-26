@@ -4,3 +4,6 @@
 
 ## day-2
 ![Screenshot from 2022-03-25 17-20-55](https://user-images.githubusercontent.com/61195602/160140449-b329223e-fc30-469c-b409-e395120fbf24.png)
+
+## day-3
+![Screenshot from 2022-03-26 18-57-31](https://user-images.githubusercontent.com/61195602/160247639-babf3c60-564c-4542-bfc6-a21acc8dc49c.png)
